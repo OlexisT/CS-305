@@ -2,10 +2,14 @@
 Artemis Financial Vulnerability Assessment Report
 
 
-Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
-What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
-Which part of the vulnerability assessment was challenging or helpful to you?
-How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+Artemis Financial, a consulting company, decided to use our company, Global rain, as we specialize in custom software design and development. As Artemis' financials main focus is on financial plans, such as savings, retirmeent, investments, and insurance plans, they need us to modernize their software, and incorporate the most up to date and effective software secutiry protocols. 
+
+One thing I did well in was throughly going through different vulnerabilities, when static testing as well as integrating the Maven Dependency- check. This allowed me to know what types of vulnerabilities we might face, before data would be open to exploitation. When a company has a software foundation based upon security, it gives the company a trust amongst its clients. By having software security as a value, it also brings validation to it's name, as well as having the ability to uphold their reputation. 
+
+The most helpful part of the vulnerability assessment was learning different techniques a company can incorporate into their practices. As some of these instruemnts were new to me, such as created a self-signed certification, it was both challenging as it was  rewarding.
+
+By making sure to have not only a review of a dependency check, in which we integrated, we added security by deploying the cryptographic hash algorithm by refactoring code. This was done by assessing the best algorith, which I chose the SHA-256 bit, and I also output the checksum verification as well. Additionally, verifying secure communication by using a self-signed cerificate, in which I used by utilizing Java's Keytool software in Eclipse.  
+
+To make certain the code and software application were functional and secure, I reran the dependency check to assess different or new vulernabilities, comparing it to the one that was produced before the security features were integrated. 
+
+The self-signed certificates, and certificate usage in general is a tool that will be helpful in future assignments. Additionally, being able to create one myself, along with refactoring code to show such a report, are great skills and showcase experience for future employers. Lastly, just the experience of coding for this 'company' shows the steps I was able to take, in adapting to their needs, such as understanding which type of encryption algorithm would work best, alongside their software requirements. 
